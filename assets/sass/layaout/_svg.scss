@@ -1,0 +1,57 @@
+.rotar {
+  transform-origin: 53% 51%;
+  transform-box: fill-box;
+  animation: rotateBox 3s linear infinite;
+}
+
+@keyframes rotateBox {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section3__svg1 {
+  width: 26vmax;
+}
+
+@keyframes rotateBox {
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes moveleft {
+  0% {
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+  50% {
+    transform: translate(160px, 0);
+    -webkit-transform: translate(160px, 0);
+    -moz-transform: translate(160px, 0);
+    -ms-transform: translate(160px, 0);
+    -o-transform: translate(160px, 0);
+}
+
+  100% {
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+}
+
+.section3-svg1__horizontal {
+  animation-name: moveleft;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
