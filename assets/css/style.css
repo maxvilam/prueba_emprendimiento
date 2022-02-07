@@ -105,7 +105,12 @@ body * {
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
-  height: 30vw;
+  height: 60vw;
+}
+@media (min-width: 768px) {
+  .img__head {
+    height: 25vw;
+  }
 }
 
 .fa-circle {
