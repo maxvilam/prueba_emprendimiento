@@ -1,0 +1,23 @@
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $black1;
+    color: $primers;
+  &__dr {
+  }
+  &__link {
+  }
+  &__right {
+    &--ib {
+    }
+    &--ib__button {
+    }
+    &--ib__input {
+    }
+    &--link {
+    }
+  }
+}

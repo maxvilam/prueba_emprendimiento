@@ -1,0 +1,44 @@
+
+a {
+  text-decoration: none;
+}
+
+.section2 {
+  border: 1px solid $black3;
+  padding: 10px;
+  &__grouplinks {
+    padding-left: 1%;
+    list-style-type: circle;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    color: $black1;
+    &--links {
+      padding-left: 10px;
+    }
+  }
+  &__paragraph {
+  }
+  &__rrss {
+    display: flex;
+    justify-content: center;
+    &--img {
+      width: 25%;
+      margin: 10px 5px 0 5px;
+      border-radius: 50%;
+    }
+  }
+  &__svg1 {
+    display: block;
+    margin: auto;
+    width: 25%;
+  }
+  &__title1 {
+    text-align: center;
+  }
+  &__title2 {
+    background-color: $black3;
+    color: $primers;
+    text-align: center;
+  }
+}

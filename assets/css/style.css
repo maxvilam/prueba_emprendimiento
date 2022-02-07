@@ -2,6 +2,7 @@ body * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: justify;
 }
 
 .respmenu a {
@@ -113,10 +114,80 @@ body * {
   }
 }
 
-.fa-circle {
-  font-size: 7px;
-  font-weight: bolder;
-  padding-right: 5px;
+.section1 {
+  border: 1px solid #2E1503;
+  padding: 10px;
+}
+.section1__bgimg1--one {
+  background-image: url(/assets/img/html-y-cssb-.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  height: 20vw;
+  margin: 5px 5px 0 5px;
+}
+.section1__bgimg2--two {
+  background-image: url(/assets/img/sass.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  height: 23vw;
+  margin: 5px 5px 0 5px;
+}
+.section1__one {
+  border: 1px solid #2E1503;
+  margin-bottom: 10px;
+}
+.section1__one--article1 {
+  padding: 0 15px 15px 15px;
+}
+.section1__two {
+  border: 1px solid #2E1503;
+}
+.section1__two--article2 {
+  padding: 0 15px 15px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section2 {
+  border: 1px solid #2E1503;
+  padding: 10px;
+}
+.section2__grouplinks {
+  padding-left: 1%;
+  list-style-type: circle;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+}
+.section2__grouplinks--links {
+  padding-left: 10px;
+}
+.section2__rrss {
+  display: flex;
+  justify-content: center;
+}
+.section2__rrss--img {
+  width: 25%;
+  margin: 10px 5px 0 5px;
+  border-radius: 50%;
+}
+.section2__svg1 {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+.section2__title1 {
+  text-align: center;
+}
+.section2__title2 {
+  background-color: #2E1503;
+  color: #ffffff;
+  text-align: center;
 }
 
 .rotar {
@@ -130,10 +201,6 @@ body * {
     transform: rotate(360deg);
   }
 }
-.section3__svg1 {
-  width: 26vmax;
-}
-
 @keyframes rotateBox {
   to {
     transform: rotate(360deg);
@@ -171,6 +238,21 @@ body * {
   animation-fill-mode: forwards;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+  }
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
