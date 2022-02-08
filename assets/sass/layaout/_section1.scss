@@ -1,37 +1,60 @@
 .section1 {
   border: 1px solid $black3;
+  border-style: groove;
   padding: 10px;
+  margin-bottom: 10px;
+  @media (min-width: $mq-tablet){
+    margin-right: 5px;
+  }
   &__bgimg1 {
     &--one {
       background-image: url(/assets/img/html-y-cssb-.jpg);
+      @media (min-width: $mq-tablet) {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: center;
+        height: 20vw;
+        margin: 5px 5px 0 5px;
+      }
       background-repeat: no-repeat;
       background-size: contain;
       background-position-x: center;
-      height: 20vw;
+      height: 35vw;
       margin: 5px 5px 0 5px;
     }
   }
   &__bgimg2 {
     &--two {
+      @media (min-width: $mq-tablet) {
         background-image: url(/assets/img/sass.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position-x: center;
         height: 23vw;
         margin: 5px 5px 0 5px;
+      }
+      background-image: url(/assets/img/sass.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: center;
+      height: 41vw;
+      margin: 5px 5px 0 5px;
+
     }
   }
   &__one {
     border: 1px solid $black3;
+    border-style: dotted;
     margin-bottom: 10px;
     &--article1 {
-        padding: 0 15px 15px 15px;
+      padding: 0 15px 15px 15px;
     }
   }
   &__two {
     border: 1px solid $black3;
+    border-style: dotted;
     &--article2 {
-        padding: 0 15px 15px 15px;
+      padding: 0 15px 15px 15px;
     }
   }
 }
