@@ -119,6 +119,7 @@ body * {
   border-style: groove;
   padding: 10px;
   margin-bottom: 10px;
+  font-family: "Ubuntu", sans-serif;
 }
 @media (min-width: 768px) {
   .section1 {
@@ -200,12 +201,17 @@ a {
 }
 .section2__grouplinks--links {
   padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.section2__paragraph {
+  font-family: "Ubuntu", sans-serif;
 }
 .section2__rrss {
   display: flex;
   justify-content: center;
 }
 .section2__rrss--img {
+  border: 1px solid #000000;
   border-radius: 50%;
   width: 50%;
 }
@@ -228,11 +234,13 @@ a {
 }
 .section2__title1 {
   text-align: center;
+  font-family: "Ubuntu", sans-serif;
 }
 .section2__title2 {
   background-color: #2E1503;
   color: #ffffff;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .rotar {
