@@ -15,7 +15,11 @@
 }
 
 .repmenu__img{
-  padding-left: 30px;
+  padding-left: 20px;
+  @media (min-width: $mq-tablet){
+    padding-left: 20px;
+  }
+
 }
 
 .respmenu input[type="checkbox"],
@@ -48,7 +52,7 @@
   color: white;
   position: relative;
   background: $black1;
-  min-height: 48px;
+  min-height: 52px;
   @media (min-width: $mq-tablet) {
     display: flex;
     justify-content:space-between

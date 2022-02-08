@@ -24,7 +24,12 @@ body * {
 }
 
 .repmenu__img {
-  padding-left: 30px;
+  padding-left: 20px;
+}
+@media (min-width: 768px) {
+  .repmenu__img {
+    padding-left: 20px;
+  }
 }
 
 .respmenu input[type=checkbox],
@@ -61,7 +66,7 @@ body * {
   color: white;
   position: relative;
   background: #000000;
-  min-height: 48px;
+  min-height: 52px;
 }
 @media (min-width: 768px) {
   .respmenu {
